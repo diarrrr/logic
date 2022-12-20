@@ -108,6 +108,12 @@ let angkass = cariAngka.length
 console.log(angkass)
 
 
+// nomor 8
+const makeNum = ang => new Array(ang).fill('').map((_, i) = i + 1);
+var limabelas = makeNum(15)
+console.log(limabelas)
+
+
 // nomor9
 
 var arr = [4,2,6,88,3,11];
